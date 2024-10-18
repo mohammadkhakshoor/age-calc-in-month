@@ -106,7 +106,7 @@ function App() {
               className={`${i + 1 > ageInMonth ? "text-gray-900 bg-gray-100" : "bg-green-200 text-black"} box`}
             >
               {i + 1 > ageInMonth ? (
-                <CircleDashed className="animate-ping" size={20} weight="light" />
+                <CircleDashed  size={20} weight="light" />
               ) : (
                 <Check size={20} weight="light" />
               )}
